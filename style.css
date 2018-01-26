@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background: gainsboro;
+}
+.gallery {
+    padding: 5px;
+    flex-flow: row wrap;
+    display: flex;
+}
+.gallery div {
+    flex: auto;
+    width: 200px;
+    margin: 5px;
+}
+.gallery div img {
+    width: 100%;
+    height: auto;
+}
